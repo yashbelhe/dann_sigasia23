@@ -14,10 +14,13 @@ Install pytorch and [diffvg](https://github.com/BachiLi/diffvg) (with python bin
 ```pip install scikit-image numpy matplotlib slangpy svgpathtools pillow```
 
 ## Data
-Download the data from here and place it in the root directory. 
+Download the data from [here](https://drive.google.com/drive/folders/1IOt6_cjE67gquhSm41275n-wIbpgnyWx?usp=sharing) and place it in the root directory. 
 
 ## Run
 To run the circles scene: `python train.py circles` and similarly for `shapes, flowerpot`.
+Results will be generated in the results directory.
+
+Note: the first time you run this, there might be some delay (2-3 mins) while SLANG compiles some kernels.
 
 ### Notable missing components:
 1. Mesh compression using draco.
